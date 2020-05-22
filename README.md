@@ -12,7 +12,7 @@ Based on https://experienceleaguecommunities.adobe.com/t5/adobe-experience-manag
 ## Before usage
 I am a REALLY BAD Coder (but a much better Architect), so please be nice to me. I know that there are much nicer ways to approach this problem, but it works and i had lack of time. :)
 
-If there is anybody out there who wants to make the Sript nice, be my guest.
+If there is anybody out there who wants to make the script nice, be my guest.
 
 ## Requirements
 I tried this on my mac, so maybe some changes need to be done in order to make it work on Windows etc.
