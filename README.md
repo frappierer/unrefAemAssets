@@ -17,9 +17,9 @@ If there is anybody out there who wants to make the Sript nice, be my guest.
 ## Requirements
 I tried this on my mac, so maybe some changes need to be done in order to make it work on Windows etc.
 
-You need to install jq, php and sed
-jq: http://macappstore.org/jq/
-sed: http://gridlab-d.sourceforge.net/wiki/index.php/Mac_OSX/Gsed
+You need to install *jq*, *php* and *sed*
+-   jq: http://macappstore.org/jq/
+-   sed: http://gridlab-d.sourceforge.net/wiki/index.php/Mac_OSX/Gsed
 
 ## Before running the script
 Edit the first lines of the script:
