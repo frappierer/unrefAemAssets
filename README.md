@@ -24,10 +24,10 @@ sed: http://gridlab-d.sourceforge.net/wiki/index.php/Mac_OSX/Gsed
 ## Before running the script
 Edit the first lines of the script:
 
-aemurl="http://localhost:4502" -> Path to your AEM Instance
-aemcontentpath="/content/dam/weretail" -> DAM Root Path
-aemusername="admin" -> Admin User Name
-aempassword="admin"-> Admin Password 
+-   aemurl="http://localhost:4502" -> Path to your AEM Instance
+-   aemcontentpath="/content/dam/weretail" -> DAM Root Path
+-   aemusername="admin" -> Admin User Name
+-   aempassword="admin"-> Admin Password 
 
 ## Running the Script
 Clone the repo, cd into the folder and run
