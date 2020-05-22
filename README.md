@@ -4,8 +4,8 @@ The Bash Script will help you to get all AEM Assets which are not related to a p
 This can be helpfull to delete images you dont need or just for other debugging purposes.
 
 The outcome will be 
-unrelatedassets.txt -> Full path of all images as text file
-unrelatedassets.html -> HTML File with a direct link to the asset
+-   unrelatedassets.txt -> Full path of all images as text file
+-   unrelatedassets.html -> HTML File with a direct link to the asset
 
 Based on https://experienceleaguecommunities.adobe.com/t5/adobe-experience-manager-assets/query-for-most-used-dam-assets-in-content/qaq-p/320629.
 
