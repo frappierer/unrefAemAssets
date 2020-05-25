@@ -4,9 +4,13 @@
 # You need to install jq, php and sed
 # based on https://experienceleaguecommunities.adobe.com/t5/adobe-experience-manager-assets/query-for-most-used-dam-assets-in-content/qaq-p/320629
 
+# AEM Author URL
 aemurl="http://localhost:4502"
-aemcontentpath="/content/weretail"
+# Path to DAM Root Folder
+aemcontentpath="/content/dam/weretail"
+# AEM Username
 aemusername="admin"
+# AEM Passwort
 aempassword="admin"
 
 
