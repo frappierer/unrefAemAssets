@@ -10,10 +10,11 @@ The outcome will be
 Based on https://experienceleaguecommunities.adobe.com/t5/adobe-experience-manager-assets/query-for-most-used-dam-assets-in-content/qaq-p/320629.
 
 # Alternatives
-I never tried that but check out
 https://github.com/hashimkhan786/aem-groovy-scripts/blob/master/findUnusedAssets.groovy
 
-Its a groovy based solution.
+Its a groovy based solution. I compared the outcome to my script, but it gave some assets as "unrelated" even though a relation was present.
+To make it work you need to install.
+https://github.com/icfnext/aem-groovy-console
 
 ## Before usage
 I am a REALLY BAD Coder (but a much better Architect), so please be nice to me. I know that there are much nicer ways to approach this problem, but it works and i had lack of time. :)
