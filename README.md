@@ -1,7 +1,7 @@
 # unrefAemAssets
 The bash script will help you to get all AEM Assets which are not related to a page.
 
-This can be helpfull to delete images you dont need or just for other debugging purposes.
+This can be helpful to delete images you don't need or just for other debugging purposes.
 
 The outcome will be 
 -   unrelatedassets.txt -> Full path of all images as text file
