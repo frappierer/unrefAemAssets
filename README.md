@@ -1,5 +1,5 @@
 # unrefAemAssets
-The Bash Script will help you to get all AEM Assets which are not related to a page.
+The bash script will help you to get all AEM Assets which are not related to a page.
 
 This can be helpfull to delete images you dont need or just for other debugging purposes.
 
@@ -9,26 +9,33 @@ The outcome will be
 
 Based on https://experienceleaguecommunities.adobe.com/t5/adobe-experience-manager-assets/query-for-most-used-dam-assets-in-content/qaq-p/320629.
 
-# Alternatives
+# Groovy alternative
+The nice thing about my solution is that it also works from the outside with AEM Admin access. If you have the possibility to install the Groovy Console, the following alternative is also interesting:
+
+The script is based on:
 https://github.com/hashimkhan786/aem-groovy-scripts/blob/master/findUnusedAssets.groovy
+but i did a little modification.
 
-Its a groovy based solution. I compared the outcome to my script, but it gave some assets as "unrelated" even though a relation was present.
-To make it work you need to install.
-https://github.com/icfnext/aem-groovy-console
+I tried to install the new groovy AEM Cloud Version -> https://github.com/CID15/aem-groovy-console but i got build issues.
 
-## Before usage
+Trying groovy version 15.1 https://github.com/icfnext/aem-groovy-console/releases/tag/15.1.0 worked even in the latest cloud Version.
+
+More on the groovy console: https://labs.tadigital.com/index.php/2018/12/18/groovy-script-in-aem/
+
+
+## Before usage of the bash script
 I am a REALLY BAD Coder (but a much better Architect), so please be nice to me. I know that there are much nicer ways to approach this problem, but it works and i had lack of time. :)
 
 If there is anybody out there who wants to make the script nice, be my guest.
 
-## Requirements
+## Bash script requirements
 I tried this on my mac, so maybe some changes need to be done in order to make it work on Windows etc.
 
 You need to install *jq*, *php* and *sed*
 -   jq: http://macappstore.org/jq/
 -   sed: http://gridlab-d.sourceforge.net/wiki/index.php/Mac_OSX/Gsed
 
-## Before running the script
+## Before running the bash script
 Edit the first lines of the script:
 
 -   aemurl="http://localhost:4502" -> Path to your AEM Instance
@@ -36,7 +43,7 @@ Edit the first lines of the script:
 -   aemusername="admin" -> Admin User Name
 -   aempassword="admin"-> Admin Password 
 
-## Running the Script
+## Running the bash script
 Clone the repo, cd into the folder and run
 
 ```
